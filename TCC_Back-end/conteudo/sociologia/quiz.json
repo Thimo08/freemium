@@ -1,0 +1,62 @@
+[
+  {
+    "pergunta": "Qual dos 'três porquinhos da sociologia' é considerado o pai do Positivismo?",
+    "opcoes": ["Karl Marx", "Max Weber", "Émile Durkheim", "Auguste Comte"],
+    "resposta_correta": "Auguste Comte",
+    "explicacao": "Auguste Comte é considerado o 'pai da sociologia' e fundador do Positivismo, uma corrente que buscava aplicar o rigor das ciências naturais ao estudo da sociedade."
+  },
+  {
+    "pergunta": "Segundo Karl Marx, a história de todas as sociedades até hoje existentes é a história da...",
+    "opcoes": ["evolução das espécies.", "luta de classes.", "busca pela felicidade.", "racionalização do mundo."],
+    "resposta_correta": "luta de classes.",
+    "explicacao": "Para Marx, o motor da história é o conflito entre a classe dominante (que detém os meios de produção) e a classe oprimida (os trabalhadores)."
+  },
+  {
+    "pergunta": "Max Weber identificou três tipos puros de dominação legítima. Qual das opções abaixo NÃO é um deles?",
+    "opcoes": ["Dominação Tradicional", "Dominação Carismática", "Dominação Racional-Legal", "Dominação Econômica"],
+    "resposta_correta": "Dominação Econômica",
+    "explicacao": "Os três tipos puros de dominação legítima segundo Weber são: Tradicional (baseada no costume), Carismática (baseada no carisma do líder) e Racional-Legal (baseada em leis e regras)."
+  },
+  {
+    "pergunta": "O conceito de 'Anomia', que descreve um estado de falta de normas, foi desenvolvido por qual sociólogo?",
+    "opcoes": ["Max Weber", "Talcott Parsons", "Émile Durkheim", "Karl Marx"],
+    "resposta_correta": "Émile Durkheim",
+    "explicacao": "Durkheim usou o termo 'anomia' para descrever situações de desordem social onde as normas morais e regras que guiam o comportamento dos indivíduos estão enfraquecidas ou ausentes."
+  },
+  {
+    "pergunta": "A obra 'Casa-Grande & Senzala', que analisa a formação da sociedade brasileira, foi escrita por:",
+    "opcoes": ["Sérgio Buarque de Holanda", "Gilberto Freyre", "Florestan Fernandes", "Darcy Ribeiro"],
+    "resposta_correta": "Gilberto Freyre",
+    "explicacao": "Nesta obra seminal, Gilberto Freyre analisa a formação do Brasil a partir da relação entre a casa-grande (os senhores) e a senzala (os escravos), destacando a miscigenação."
+  },
+  {
+    "pergunta": "Qual sociólogo brasileiro é conhecido por sua crítica ao mito da democracia racial?",
+    "opcoes": ["Caio Prado Júnior", "Celso Furtado", "Florestan Fernandes", "Raymundo Faoro"],
+    "resposta_correta": "Florestan Fernandes",
+    "explicacao": "Florestan Fernandes foi um crítico contundente da ideia de que o Brasil era uma 'democracia racial', mostrando como o preconceito e a desigualdade persistiram após a abolição."
+  },
+  {
+    "pergunta": "O conceito de 'Sociedade do Espetáculo', que argumenta que as relações sociais são mediadas por imagens, foi proposto por:",
+    "opcoes": ["Guy Debord", "Jean Baudrillard", "Pierre Bourdieu", "Michel Foucault"],
+    "resposta_correta": "Guy Debord",
+    "explicacao": "Debord argumenta que na sociedade moderna, tudo se tornou representação. O 'espetáculo' não é um conjunto de imagens, mas uma relação social entre pessoas, mediada por imagens."
+  },
+  {
+    "pergunta": "Em 'O Homem Cordial', Sérgio Buarque de Holanda caracteriza o brasileiro como alguém que age com base na...",
+    "opcoes": ["razão e na lógica.", "emoção e na afetividade.", "lei e na burocracia.", "tradição e nos costumes."],
+    "resposta_correta": "emoção e na afetividade.",
+    "explicacao": "O 'homem cordial' de Holanda é aquele que pauta suas relações pela pessoalidade e afetividade, tendo dificuldade em separar a esfera pública da privada."
+  },
+  {
+    "pergunta": "Para Michel Foucault, o poder não é apenas repressivo, mas também produtivo. Ele se manifesta através do que ele chama de:",
+    "opcoes": ["Luta de classes", "Fatos sociais", "Dispositivos e saberes", "Ação comunicativa"],
+    "resposta_correta": "Dispositivos e saberes",
+    "explicacao": "Foucault via o poder como uma rede difusa que produz conhecimento, discursos e verdades (saberes), e que opera através de instituições e práticas (dispositivos)."
+  },
+  {
+    "pergunta": "Qual sociólogo contemporâneo é famoso por sua análise da globalização e pelo conceito de 'sociedade em rede'?",
+    "opcoes": ["Anthony Giddens", "Ulrich Beck", "Zygmunt Bauman", "Manuel Castells"],
+    "resposta_correta": "Manuel Castells",
+    "explicacao": "Castells é um dos principais teóricos da era da informação, argumentando que a nova estrutura social é baseada em redes de comunicação digitais."
+  }
+]

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RePensei</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="pt-24 bg-gradient-to-br from-purple-800 via-purple-500 to-purple-300 min-h-screen flex fade-in">
+
+    <nav id="topbar" class="w-full topbar-gradient shadow z-50 fixed top-0 left-0" style="padding-left: 16rem;">
+        <div class="flex flex-row items-center justify-between gap-8 py-4 px-8">
+            <div class="flex items-center gap-2 absolute left-8 top-1/2 -translate-y-1/2">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Logo" class="w-10 h-10 drop-shadow rounded-full border-2 border-white">
+                <span class="text-3xl font-extrabold text-white drop-shadow tracking-wide">RePensei</span>
+            </div>
+            <div class="flex flex-row items-center justify-center gap-8 mx-auto relative" id="menuBar">
+                <a href="#" class="menu-link font-semibold text-white hover:text-pink-300 transition" data-page="resumo">Resumo</a>
+                <a href="#" class="menu-link font-semibold text-white hover:text-pink-300 transition" data-page="correcao">Correção</a>
+                <a href="#" class="menu-link font-semibold text-white hover:text-pink-300 transition" data-page="flashcards">Flashcards</a>
+                <a href="#" class="menu-link font-semibold text-white hover:text-pink-300 transition" data-page="quiz">Quiz</a>
+                <a href="#" class="menu-link font-semibold text-white hover:text-pink-300 transition" data-page="chat">Chat</a>
+                <span id="menuUnderline" class="menu-underline"></span>
+            </div>
+            <div></div>
+        </div>
+    </nav>
+
+    <nav id="sidebar" class="h-screen w-64 sidebar-gradient flex flex-col justify-between fixed top-0 left-0 z-40 pt-24">
+        <div>
+            <ul class="flex flex-col gap-2 px-4">
+                <li><a href="#" data-sidebar="inicio" class="flex items-center gap-3 px-4 py-3 rounded-lg text-white font-semibold hover:bg-[#6d28d9] transition"><span class="material-icons">home</span> Início</a></li>
+                <li><a href="#" data-sidebar="historico" class="flex items-center gap-3 px-4 py-3 rounded-lg text-white font-semibold hover:bg-[#6d28d9] transition"><span class="material-icons">history</span> Histórico</a></li>
+                <li><a href="#" data-sidebar="perfil" class="flex items-center gap-3 px-4 py-3 rounded-lg text-white font-semibold hover:bg-[#6d28d9] transition"><span class="material-icons">person</span> Perfil</a></li>
+            </ul>
+        </div>
+        <div class="px-6 py-6">
+            <button id="authBtn" class="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition shadow">
+                <span class="material-icons" id="authIcon">login</span>
+                <span id="authText">Login</span>
+            </button>
+        </div>
+    </nav>
+    
+    <div id="mainContent" class="flex-1 ml-64 flex flex-col items-center justify-center w-full p-4">
+        
+        <div id="tela-inicio" class="tela ativa">
+            <div class="w-full max-w-2xl mx-auto p-10 rounded-3xl flex flex-col items-center glass">
+                <h1 class="text-5xl font-extrabold text-white text-center">Bem-vindo ao <span class="text-pink-300">RePensei</span></h1>
+                <p class="text-white text-lg mt-6 mb-8 text-center font-medium">Sua plataforma de estudos para Filosofia e Sociologia.</p>
+                <div class="w-full flex flex-col sm:flex-row justify-center gap-6 mt-4">
+                    <button onclick="abrirLogin()" class="btn-animado bg-gradient-to-r from-pink-400 to-purple-400 text-white text-xl font-bold px-8 py-3 rounded-2xl shadow-md"><span class="material-icons align-middle mr-1">login</span> Login</button>
+                    <button onclick="abrirCriarConta()" class="btn-animado bg-gradient-to-r from-purple-400 to-pink-400 text-white text-xl font-bold px-8 py-3 rounded-2xl shadow-md"><span class="material-icons align-middle mr-1">person_add</span> Criar conta</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="tela-resumo" class="tela"><div class="placeholder-content"><span class="material-icons text-5xl mb-4">lock</span>Esta funcionalidade é exclusiva para assinantes Premium.</div></div>
+        <div id="tela-correcao" class="tela"><div class="placeholder-content"><span class="material-icons text-5xl mb-4">lock</span>Esta funcionalidade é exclusiva para assinantes Premium.</div></div>
+        <div id="tela-chat" class="tela"><div class="placeholder-content"><span class="material-icons text-5xl mb-4">lock</span>O Chat com IA é uma funcionalidade exclusiva para assinantes Premium.</div></div>
+        <div id="tela-historico" class="tela"><div class="placeholder-content"><span class="material-icons text-5xl mb-4">lock</span>O Histórico de atividades é uma funcionalidade para assinantes.</div></div>
+        <div id="tela-perfil" class="tela"><div class="placeholder-content"><span class="material-icons text-5xl mb-4">lock</span>A área de Perfil é exclusiva para assinantes.</div></div>
+
+        <div id="tela-flashcards" class="tela w-full max-w-5xl">
+            <div class="p-8 rounded-2xl flex flex-col items-center glass">
+                <h2 class="text-3xl font-bold text-white mb-4">Flashcards</h2>
+                <div class="w-full flex flex-col items-center">
+                    <p class="text-white text-lg text-center mb-4">Selecione uma categoria para estudar:</p>
+                    <div id="flashcard-theme-selector" class="flex gap-4 mb-6">
+                        <button class="theme-button" data-theme="filosofia">Filosofia</button>
+                        <button class="theme-button" data-theme="sociologia">Sociologia</button>
+                    </div>
+                    <button id="gerarFlashcardsBtn" class="btn-primary">Gerar Flashcards</button>
+                </div>
+                <div id="flashcardsContainer" class="flex flex-wrap gap-6 justify-center w-full mt-8"></div>
+            </div>
+        </div>
+
+        <div id="tela-quiz" class="tela w-full max-w-3xl">
+            <div class="p-8 rounded-2xl flex flex-col items-center glass">
+                <h2 class="text-3xl font-bold text-white mb-4">Quiz</h2>
+                <div class="w-full flex flex-col items-center">
+                    <p class="text-white text-lg text-center mb-4">Teste seus conhecimentos:</p>
+                    <div id="quiz-theme-selector" class="flex gap-4 mb-6">
+                        <button class="theme-button" data-theme="filosofia">Filosofia</button>
+                        <button class="theme-button" data-theme="sociologia">Sociologia</button>
+                    </div>
+                    <button id="gerarQuizBtn" class="btn-primary">Gerar Quiz</button>
+                </div>
+                <div id="quizOutput" class="w-full bg-white/90 p-6 sm:p-8 rounded-2xl shadow-lg mt-8 hidden"></div>
+                <div id="quizResult" class="w-full hidden"></div>
+                <div class="text-center mt-6">
+                    <button id="restartQuizBtn" class="btn-primary hidden">Gerar Novo Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="modalLogin" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40 hidden">
+        <div class="bg-white rounded-3xl p-8 max-w-sm w-full shadow-2xl flex flex-col items-center modal-anim border-2 border-purple-200 relative">
+            <button onclick="fecharLogin()" class="absolute top-4 right-4 text-purple-400 hover:text-pink-400 text-2xl z-10">
+                <span class="material-icons">close</span>
+            </button>
+            <h2 class="text-3xl font-extrabold text-purple-800 mb-6 tracking-wide">Entrar</h2>
+            <input type="email" id="loginEmail" placeholder="E-mail" class="w-full mb-4 px-4 py-3 rounded-lg input-custom text-lg" />
+            <input type="password" id="loginSenha" placeholder="Senha" class="w-full mb-6 px-4 py-3 rounded-lg input-custom text-lg" />
+            <button id="entrarBtn" class="w-full btn-animado bg-gradient-to-r from-pink-400 to-purple-400 text-white font-bold py-3 rounded-lg shadow transition mb-3 text-lg">Entrar</button>
+            <button onclick="fecharLogin()" class="text-purple-700 hover:underline mt-2 text-base">Cancelar</button>
+        </div>
+    </div>
+    <div id="modalCriarConta" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40 hidden">
+        <div class="bg-white rounded-3xl p-8 max-w-sm w-full shadow-2xl flex flex-col items-center modal-anim border-2 border-purple-200 relative">
+            <button onclick="fecharCriarConta()" class="absolute top-4 right-4 text-purple-400 hover:text-pink-400 text-2xl z-10">
+                <span class="material-icons">close</span>
+            </button>
+            <h2 class="text-3xl font-extrabold text-purple-800 mb-6 tracking-wide">Criar Conta</h2>
+            <input type="text" id="cadastroNome" placeholder="Nome completo" class="w-full mb-4 px-4 py-3 rounded-lg input-custom text-lg" />
+            <input type="email" id="cadastroEmail" placeholder="E-mail" class="w-full mb-4 px-4 py-3 rounded-lg input-custom text-lg" />
+            <input type="password" id="cadastroSenha" placeholder="Senha" class="w-full mb-4 px-4 py-3 rounded-lg input-custom text-lg" />
+            <input type="password" id="cadastroConfirmarSenha" placeholder="Confirmar senha" class="w-full mb-6 px-4 py-3 rounded-lg input-custom text-lg" />
+            <button id="criarContaBtn" class="w-full btn-animado bg-gradient-to-r from-purple-400 to-pink-400 text-white font-bold py-3 rounded-lg shadow transition mb-3 text-lg">Criar conta</button>
+            <button onclick="fecharCriarConta()" class="text-purple-700 hover:underline mt-2 text-base">Cancelar</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 

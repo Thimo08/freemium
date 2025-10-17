@@ -1,0 +1,62 @@
+[
+  {
+    "pergunta": "Qual filósofo pré-socrático acreditava que tudo era composto por átomos?",
+    "opcoes": ["Tales de Mileto", "Heráclito", "Demócrito", "Parmênides"],
+    "resposta_correta": "Demócrito",
+    "explicacao": "Demócrito foi o principal expoente da teoria atomista, que propunha que toda a matéria no universo era composta por partículas indivisíveis (átomos) movendo-se no vazio."
+  },
+  {
+    "pergunta": "A teoria do 'Mundo das Ideias', que postula uma realidade perfeita e imutável, pertence a qual filósofo?",
+    "opcoes": ["Aristóteles", "Platão", "Sócrates", "Diógenes"],
+    "resposta_correta": "Platão",
+    "explicacao": "Platão defendia que o mundo que percebemos com os sentidos é uma cópia imperfeita do Mundo das Ideias, que contém as formas verdadeiras e eternas de tudo que existe."
+  },
+  {
+    "pergunta": "Segundo Aristóteles, a virtude é encontrada no 'meio-termo'. Como essa doutrina é conhecida?",
+    "opcoes": ["Doutrina da Emanação", "Doutrina da Reminiscência", "Doutrina da Justa Medida", "Doutrina do Inatismo"],
+    "resposta_correta": "Doutrina da Justa Medida",
+    "explicacao": "Aristóteles ensinava que a virtude moral é um meio-termo entre dois extremos (vícios), um por excesso e outro por falta. Por exemplo, a coragem é o meio-termo entre a covardia e a temeridade."
+  },
+  {
+    "pergunta": "Qual movimento filosófico defendia a aceitação do destino e o controle das paixões para alcançar a paz interior?",
+    "opcoes": ["Epicurismo", "Estoicismo", "Ceticismo", "Cinismo"],
+    "resposta_correta": "Estoicismo",
+    "explicacao": "O Estoicismo, popular em Roma com filósofos como Sêneca e Marco Aurélio, pregava a ataraxia (paz de espírito) através da virtude, do dever e da indiferença aos prazeres e dores."
+  },
+  {
+    "pergunta": "Na obra 'O Príncipe', qual pensador aconselhou que os fins justificam os meios no exercício do poder político?",
+    "opcoes": ["Thomas More", "Erasmo de Roterdã", "Nicolau Maquiavel", "Tomás de Aquino"],
+    "resposta_correta": "Nicolau Maquiavel",
+    "explicacao": "Maquiavel analisou a política de forma realista, argumentando que o governante (o Príncipe) deve estar disposto a usar de todos os meios necessários para manter o Estado e a ordem."
+  },
+  {
+    "pergunta": "Qual filósofo empirista afirmou que a mente humana é uma 'tábula rasa' (folha em branco) ao nascer?",
+    "opcoes": ["René Descartes", "John Locke", "Immanuel Kant", "Baruch Spinoza"],
+    "resposta_correta": "John Locke",
+    "explicacao": "Locke é um dos pais do empirismo, corrente que defende que todo o nosso conhecimento provém da experiência sensorial. A mente, ao nascer, não teria ideias inatas."
+  },
+  {
+    "pergunta": "'A existência precede a essência' é a máxima central de qual corrente filosófica?",
+    "opcoes": ["Positivismo", "Pragmatismo", "Fenomenologia", "Existencialismo"],
+    "resposta_correta": "Existencialismo",
+    "explicacao": "Para existencialistas como Sartre, o ser humano primeiro existe no mundo e, através de suas escolhas e liberdade, constrói sua própria essência (seu propósito e valores)."
+  },
+  {
+    "pergunta": "Qual filósofo criticou a moralidade tradicional como uma 'moral de rebanho' e propôs o conceito de 'Além-do-Homem' (Übermensch)?",
+    "opcoes": ["Arthur Schopenhauer", "Georg Hegel", "Søren Kierkegaard", "Friedrich Nietzsche"],
+    "resposta_correta": "Friedrich Nietzsche",
+    "explicacao": "Nietzsche criticava a moral judaico-cristã por enfraquecer o indivíduo. O Übermensch seria um ser humano superior, capaz de criar seus próprios valores e superar a si mesmo."
+  },
+  {
+    "pergunta": "A Escola de Frankfurt, conhecida por sua 'Teoria Crítica', tinha como um de seus principais expoentes:",
+    "opcoes": ["Michel Foucault", "Jürgen Habermas", "Ludwig Wittgenstein", "Martin Heidegger"],
+    "resposta_correta": "Jürgen Habermas",
+    "explicacao": "Habermas é um dos mais influentes membros da segunda geração da Escola de Frankfurt, conhecido por seus trabalhos sobre a esfera pública e a ação comunicativa."
+  },
+  {
+    "pergunta": "Simone de Beauvoir, em 'O Segundo Sexo', afirma: 'Não se nasce mulher, torna-se mulher'. O que essa frase significa?",
+    "opcoes": ["Que o gênero é determinado pela biologia.", "Que o papel da mulher é uma construção social e cultural.", "Que a feminilidade é uma escolha individual.", "Que as mulheres são naturalmente superiores."],
+    "resposta_correta": "Que o papel da mulher é uma construção social e cultural.",
+    "explicacao": "Essa frase icônica do feminismo argumenta que os papéis, comportamentos e características associadas ao 'ser mulher' não são naturais, mas sim impostos pela sociedade e pela cultura."
+  }
+]

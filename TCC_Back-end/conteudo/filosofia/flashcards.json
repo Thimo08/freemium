@@ -1,0 +1,34 @@
+[
+  {
+    "pergunta": "O que é a 'Alegoria da Caverna' de Platão?",
+    "resposta": "É uma metáfora sobre a condição humana perante o conhecimento. Ilustra a jornada do filósofo da ignorância (sombras na caverna) para a verdade (luz do sol, o Mundo das Ideias)."
+  },
+  {
+    "pergunta": "Qual a base do pensamento de René Descartes resumida na frase 'Penso, logo existo'?",
+    "resposta": "É o ponto de partida indubitável de sua filosofia. Ao duvidar de tudo, a única certeza que resta é a da própria existência como um ser pensante."
+  },
+  {
+    "pergunta": "O que significa o 'Imperativo Categórico' para Immanuel Kant?",
+    "resposta": "É um princípio moral que diz que uma ação é correta apenas se sua regra puder ser universalizada, ou seja, aplicada a todos os seres racionais sem contradição."
+  },
+  {
+    "pergunta": "Para Aristóteles, o que é 'Eudaimonia'?",
+    "resposta": "É o conceito de florescimento humano ou 'vida boa', alcançado através da prática constante da virtude (areté) e do uso da razão. Frequentemente traduzido como felicidade."
+  },
+  {
+    "pergunta": "Qual a principal ideia do existencialismo de Jean-Paul Sartre?",
+    "resposta": "A de que 'a existência precede a essência'. Significa que o ser humano primeiro existe, e só depois, através de suas escolhas e ações, define quem ele é."
+  },
+  {
+    "pergunta": "O que Friedrich Nietzsche quis dizer com a 'morte de Deus'?",
+    "resposta": "Não foi um evento literal, mas a constatação de que os valores morais e a fé baseados na religião perderam sua força na sociedade moderna, levando a uma crise de sentido."
+  },
+  {
+    "pergunta": "O que é o 'Contrato Social' para Jean-Jacques Rousseau?",
+    "resposta": "É um pacto hipotético entre os indivíduos para formar uma sociedade civil, onde cada um abre mão de parte de sua liberdade natural em troca de direitos e segurança."
+  },
+  {
+    "pergunta": "Qual a função do 'Mito de Sísifo' para Albert Camus?",
+    "resposta": "Representa o absurdo da condição humana: a busca incessante por sentido em um universo sem sentido. Camus conclui que devemos imaginar Sísifo feliz, pois ele se rebela ao aceitar seu destino."
+  }
+]
